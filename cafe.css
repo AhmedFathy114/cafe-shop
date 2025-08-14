@@ -241,9 +241,6 @@ html, body {
    .landing-section-four{
     margin-left: -50px;
    }
-   body{
-   
-   }
  
 }
 .section-two{
@@ -276,13 +273,13 @@ html, body {
 .section-two-cards .row .col-lg-4{
     margin-right: -50px;
 }
-.section-two-cards .card:hover{
-    animation-name: card;
+.section-two-cards .card7:hover{
+    animation-name: card7;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transition: all 0.3s ease;
 }
-@keyframes card {
+@keyframes card7 {
     from{
         scale: 1;
     }
@@ -329,7 +326,6 @@ html, body {
 
 .section-two-cards .order{
     text-align: center;
-
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -480,5 +476,5 @@ html, body {
     margin-top: 20px;
     text-align: center;
     font-size: 13px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
